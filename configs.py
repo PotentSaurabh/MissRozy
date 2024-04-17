@@ -38,7 +38,7 @@ CUSTOM_CAPTION = environ.get('CUSTOM_CAPTION')
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", 16913514))
 	API_HASH = os.environ.get("API_HASH", "9996dfffaa4a745d8a99e0dc73f570a9")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN","7057647025:AAGZwDyExFjV6DxqJsF_Nqr9yOiveBiBb8M")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN","")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "HeavenFileStorebot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002108017457))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1154404230"))
