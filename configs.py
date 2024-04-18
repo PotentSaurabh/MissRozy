@@ -39,7 +39,7 @@ class Config(object):
 	API_ID = int(os.environ.get("API_ID", 16913514))
 	API_HASH = os.environ.get("API_HASH", "9996dfffaa4a745d8a99e0dc73f570a9")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN","")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "HeavenFileStorebot")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "HeavenFilesStorebot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002108017457))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1154404230"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://saurabhheaven9:saurabhheaven9@cluster0.hgginkx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
